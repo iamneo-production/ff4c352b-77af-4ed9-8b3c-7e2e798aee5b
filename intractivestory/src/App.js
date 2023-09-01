@@ -91,7 +91,7 @@ const App = () => {
       <div className="movie-list">
 
      
-
+//comment
         {movies.map(movie => (
 
           <Movie key={movie.id} movie={movie} />
