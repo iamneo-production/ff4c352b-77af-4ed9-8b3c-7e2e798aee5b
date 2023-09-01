@@ -1,0 +1,240 @@
+{
+  "stories":[
+    {
+      "id":1,
+      "previous":[],
+        "story": [
+          {
+            "id": 1,
+            "text": "You wake up in a mysterious room. What do you do?",
+            "image":"https://tse4.mm.bing.net/th/id/OIP.jQqJuBxZVPeA7mEe-pJxmwHaE-?pid=ImgDet&rs=1",
+            "options": [
+              {
+                "storyId": 2,
+                "text": "Examine the room."
+              },
+              {
+                "storyId": 3,
+                "text": "Try to open the door."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 2,
+            "text": "You find a key on the table and a painting on the wall. What do you do?",
+            "image":"https://i.pinimg.com/474x/eb/ff/5c/ebff5cf82c212f8b0ec8d1b77a4e5e92.jpg",
+            "options": [
+              {
+                "storyId": 4,
+                "text": "Take the key."
+              },
+              {
+                "storyId": 5,
+                "text": "Inspect the painting."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 3,
+            "text": "You try to open the door, but it's locked. You notice a small keyhole. What will you do?",
+            "image":"https://www.edmchicago.com/wp-content/uploads/2020/11/Fix-A-Locked-Door-840x420.jpg",
+            "options": [
+              {
+                "storyId": 6,
+                "text": "Examine the keyhole."
+              },
+              {
+                "storyId": 7,
+                "text": "Return to examining the room."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 4,
+            "text": "You take the key. It feels cold in your hand. What now?",
+            "image":"https://live.staticflickr.com/8751/16388037694_7ce1ee79fd.jpg",
+            "options": [
+              {
+                "storyId": 8,
+                "text": "Approach the door and use the key."
+              },
+              {
+                "storyId": 9,
+                "text": "Inspect the painting."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 5,
+            "text": "As you inspect the painting, you notice it's a detailed landscape depicting an unfamiliar place. What next?",
+            "image":"https://cdn.britannica.com/60/95760-004-F0029692.jpg",
+            "options": [
+              {
+                "storyId": 10,
+                "text": "Take the key and approach the door."
+              },
+              {
+                "storyId": 11,
+                "text": "Continue examining the painting for clues."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 6,
+            "text": "You examine the keyhole closely but can't see much. What's your next move?",
+            "image":"https://tse3.mm.bing.net/th/id/OIP.zcv83dl-jP3_3koyn3sKbQAAAA?pid=ImgDet&rs=1",
+            "options": [
+              {
+                "storyId": 7,
+                "text": "Return to examining the room."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 7,
+            "text": "As you search the room, you discover a hidden compartment under the bed. It contains a map and a journal. What will you do?",
+            "image":"https://i.pinimg.com/originals/b6/a7/dc/b6a7dc3d301475a9cab31388193efab7.jpg",
+            "options": [
+              {
+                "storyId": 13,
+                "text": "Examine the map."
+              },
+              {
+                "storyId": 14,
+                "text": "Read the journal."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 8,
+            "text": "You cautiously approach the door and use the key. It fits perfectly, and the door creaks open to reveal a dimly lit corridor. What do you do?",
+            "image":"https://cdnb.artstation.com/p/assets/images/images/042/471/647/large/mikael-beane-beanemikaelperspective-1pt-92.jpg?1634604080",
+            "options": [
+              {
+                "storyId": 15,
+                "text": "Step into the corridor."
+              },
+              {
+                "storyId": 7,
+                "text": "Return to examining the room."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 9,
+            "text": "As you closely inspect the painting, you notice a hidden message written in a corner. It reads: 'The key is the answer.' What's your next move?",
+            "image":"https://happymag.tv/wp-content/uploads/2021/02/message-870x524.jpg",
+            "options": [
+              {
+                "storyId": 12,
+                "text": "Try the key you found."
+              },
+              {
+                "storyId": 7,
+                "text": "Return to examining the room."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 10,
+            "text": "You take the key and approach the door. As you insert the key into the lock, you hear a soft click. The door is now unlocked. What will you do?",
+            "image":"https://media.gettyimages.com/photos/person-opening-a-door-from-a-dark-room-into-the-light-picture-id108313792?s=170667a",
+            "options": [
+              {
+                "storyId": 15,
+                "text": "Open the door and step into the corridor."
+              },
+              {
+                "storyId": 7,
+                "text": "Return to examining the room."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 11,
+            "text": "You continue examining the painting, hoping to find more clues. However, you don't discover anything else of significance. What's your next move?",
+            "image":"https://tse2.mm.bing.net/th/id/OIP.cL1KgrIjC5wf-GCeimRwqAAAAA?pid=ImgDet&rs=1",
+            "options": [
+              {
+                "storyId": 8,
+                "text": "Approach the door and use the key."
+              },
+              {
+                "storyId": 7,
+                "text": "Return to examining the room."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 12,
+            "text": "You have cautiously insert the key as the corect door leads you out. What do you do?",
+            "image":"https://tse3.mm.bing.net/th/id/OIP.49uW2OuV68_baq-RbnEMbwHaE8?pid=ImgDet&rs=1",
+            "options": [
+              {
+                "storyId": 15,
+                "text": "Open the door and step into the corridor."
+              },
+              {
+                "storyId": 7,
+                "text": "Return to examining the room."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 13,
+            "text": "You unfold the map and see a marked location deep within a nearby forest. It seems to be your only lead. What's your next step?",
+            "image":"https://tse3.mm.bing.net/th/id/OIP.VVUgOwgAGdY0o7fVYWoVSQHaEK?pid=ImgDet&rs=1",
+            "options": [
+              {
+                "storyId": 15,
+                "text": "Leave the room and embark on the journey to the marked location."
+              },
+              {
+                "storyId": 7,
+                "text": "Continue investigating the room before making a decision."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 14,
+            "text": "You open the journal and start reading the entries. They reveal the story of a previous occupant who went on a quest to find a hidden treasure. The last entry hints at the importance of the key and the painting. What's your next move?",
+            "image":"https://tse1.mm.bing.net/th/id/OIP.6gngEGhxIgm-i-TMRS2W1gHaE_?pid=ImgDet&rs=1",
+            "options": [
+              {
+                "storyId": 8,
+                "text": "Approach the door and use the key."
+              },
+              {
+                "storyId": 13,
+                "text": "Examine the map mentioned in the journal."
+              }
+            ],
+            "end":false
+          },
+          {
+            "id": 15,
+            "text": "Congarts!!! ..You found the treasure map and Finally you came out of the mysterious room.....",
+            "image":"https://www.rd.com/wp-content/uploads/2020/06/GettyImages-987802930-scaled.jpg?w=2560",
+            "options": [
+            ],
+            "end":true
+          }
+          
+        ]
+      }
+      
+]
+}
